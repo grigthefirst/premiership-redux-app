@@ -9,4 +9,4 @@ of goals scored would be ranked higher.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-To play with it, just clone repository and `run npm` start in cloned folder.
+To play with it, just clone repository and run `npm install` and `npm start` in cloned folder.
