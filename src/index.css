@@ -1,0 +1,76 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.loader {
+  padding-top: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.loader-icon {
+    margin: auto;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.visible {
+  visibility: inherit;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.roundSelector > select {
+  margin-left: 5px;
+}
+
+.matches {
+  margin-top: 10px;
+  display: table;
+  border-collapse: collapse;
+}
+
+.matches > div {
+  display: table-row;
+}
+
+.matches > div > div {
+  display: table-cell;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.leaderboard {
+  margin-top: 10px;
+  display: table;
+  border-collapse: collapse;
+}
+
+.leaderboard-head {
+  font-weight: bold;
+}
+
+.leaderboard > div {
+  display: table-row;
+}
+
+.leaderboard > div > div {
+  display: table-cell;
+  border: 1px solid grey;
+  padding: 5px;
+}
